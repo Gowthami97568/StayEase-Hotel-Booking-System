@@ -1,0 +1,29 @@
+.featured{
+
+padding:70px 8%;
+
+background:#f7f9fc;
+
+}
+
+.featured h1{
+
+font-size:38px;
+
+margin-bottom:35px;
+
+text-align:center;
+
+color:#003580;
+
+}
+
+.hotel-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+}

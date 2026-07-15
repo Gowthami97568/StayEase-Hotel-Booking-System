@@ -1,0 +1,19 @@
+.admin-navbar{
+    margin-left:260px;
+    height:70px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 35px;
+    box-shadow:0 3px 8px rgba(0,0,0,.08);
+}
+
+.admin-navbar h2{
+    color:#003580;
+}
+
+.admin-user{
+    font-size:18px;
+    font-weight:bold;
+}

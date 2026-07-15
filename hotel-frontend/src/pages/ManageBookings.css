@@ -1,0 +1,92 @@
+.manage-bookings{
+    margin-left:260px;
+    padding:30px;
+    background:#f5f7fb;
+    min-height:100vh;
+}
+
+.booking-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.booking-header h1{
+    color:#003580;
+}
+
+.search-box{
+    width:300px;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    outline:none;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+th{
+    background:#003580;
+    color:white;
+    padding:15px;
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid #eee;
+    text-align:center;
+}
+
+.status{
+    padding:6px 12px;
+    border-radius:20px;
+    font-weight:bold;
+}
+
+.confirmed{
+    background:#d4edda;
+    color:green;
+}
+
+.pending{
+    background:#fff3cd;
+    color:#856404;
+}
+
+.cancelled{
+    background:#f8d7da;
+    color:red;
+}
+
+.confirm-btn{
+    background:#198754;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-right:8px;
+}
+
+.cancel-btn{
+    background:#dc3545;
+    color:white;
+    border:none;
+    padding:8px 14px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.confirm-btn:hover{
+    background:#146c43;
+}
+
+.cancel-btn:hover{
+    background:#bb2d3b;
+}

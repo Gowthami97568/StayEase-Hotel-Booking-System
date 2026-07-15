@@ -1,0 +1,143 @@
+.dashboard-content {
+    margin-left: 260px;
+    padding: 30px;
+    background: #f4f6f9;
+    min-height: 100vh;
+}
+
+.dashboard-content h1 {
+    color: #003580;
+}
+
+/* ---------- Stat Cards ---------- */
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+    filter: brightness(1.05);
+}
+
+.card h2 {
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    opacity: 0.9;
+}
+
+.card h1 {
+    font-size: 42px;
+    margin-top: 15px;
+    color: white;
+}
+
+.blue { background: linear-gradient(135deg, #0d6efd, #0b5ed7); }
+.green { background: linear-gradient(135deg, #198754, #157347); }
+.orange { background: linear-gradient(135deg, #fd7e14, #e8590c); }
+.red { background: linear-gradient(135deg, #dc3545, #bb2d3b); }
+
+/* ---------- Table Section ---------- */
+.table-section {
+    margin-top: 40px;
+}
+
+.table-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.table-header h2 {
+    color: #003580;
+    margin: 0;
+}
+
+.table-subtitle {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.table-wrapper {
+    background: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.booking-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.booking-table th,
+.booking-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eef0f2;
+    text-align: left;
+}
+
+.booking-table th {
+    background: #003580;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.booking-table tbody tr {
+    transition: background 0.2s ease;
+}
+
+.booking-table tbody tr:hover {
+    background: #f0f6ff;
+}
+
+.booking-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* ---------- Status Badges ---------- */
+.status-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    transition: transform 0.2s ease;
+}
+
+.status-badge:hover {
+    transform: scale(1.06);
+}
+
+.status-confirmed {
+    background: #e6f7ee;
+    color: #198754;
+}
+
+.status-pending {
+    background: #fff4e5;
+    color: #fd7e14;
+}
+
+.status-cancelled {
+    background: #fdecee;
+    color: #dc3545;
+}

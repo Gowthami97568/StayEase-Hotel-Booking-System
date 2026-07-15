@@ -1,0 +1,188 @@
+/* ---- Append these to your existing MyBookings.css ---- */
+
+.hotel-stars {
+  color: #f5a623;
+  font-weight: 600;
+}
+
+.cancelled {
+  color: #d92d20;
+  font-weight: 600;
+}
+
+.status-confirmed {
+  color: #12b76a;
+  font-weight: 600;
+}
+
+.status-cancelled {
+  color: #d92d20;
+  font-weight: 600;
+}
+
+.booking-details-section,
+.qr-section,
+.timeline-section,
+.actions-section,
+.rate-hotel-section,
+.support-section,
+.similar-hotels-section {
+  margin-top: 32px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 24px;
+}
+
+.qr-section {
+  text-align: center;
+}
+
+.qr-code {
+  margin: 12px 0;
+}
+
+.qr-note {
+  color: #667085;
+  font-size: 14px;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+  border-left: 3px solid #e4e7ec;
+  margin-left: 8px;
+}
+
+.timeline-step {
+  position: relative;
+  padding: 8px 0 8px 24px;
+  color: #667085;
+}
+
+.timeline-step .dot {
+  position: absolute;
+  left: -9px;
+  top: 12px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #d0d5dd;
+}
+
+.timeline-step.completed {
+  color: #101828;
+  font-weight: 500;
+}
+
+.timeline-step.completed .dot {
+  background: #12b76a;
+}
+
+.timeline-step.cancelled {
+  color: #d92d20;
+  font-weight: 500;
+}
+
+.timeline-step.cancelled .dot {
+  background: #d92d20;
+}
+
+.actions-section {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  background: #1570ef;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.action-btn:disabled {
+  background: #98a2b3;
+  cursor: not-allowed;
+}
+
+.cancel-btn {
+  background: #d92d20;
+}
+
+.star-input {
+  font-size: 28px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.star {
+  color: #d0d5dd;
+  margin-right: 4px;
+}
+
+.star.filled {
+  color: #f5a623;
+}
+
+.thank-you {
+  color: #12b76a;
+  font-weight: 600;
+}
+
+.support-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.similar-hotels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.similar-hotel-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e4e7ec;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+
+.similar-hotel-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.similar-hotel-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.similar-hotel-card h3,
+.similar-hotel-card p {
+  margin: 6px 12px;
+}
+
+.similar-hotel-card .price {
+  font-weight: 600;
+  color: #1570ef;
+  margin-bottom: 12px;
+}
