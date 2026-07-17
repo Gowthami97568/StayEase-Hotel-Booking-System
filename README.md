@@ -207,45 +207,6 @@ The application uses JWT-based authentication.
 - Logout
 
 Private routes ensure secure access based on user roles.
-
----
-
-# 💳 Booking Flow
-
-Customer Login
-
-⬇
-
-Browse Hotels
-
-⬇
-
-View Hotel Details
-
-⬇
-
-Select Room
-
-⬇
-
-Reserve
-
-⬇
-
-Booking Page
-
-⬇
-
-Payment
-
-⬇
-
-Booking Confirmation
-
-⬇
-
-My Bookings
-
 ---
 
 # 🗄 Database
@@ -370,10 +331,6 @@ GET /admin/dashboard
 (Add screenshots here after deployment.)
 
 ---
-
-# 👩‍💻 Developer
-
-**Gowthami**
 
 GitHub:
 https://github.com/Gowthami97568
