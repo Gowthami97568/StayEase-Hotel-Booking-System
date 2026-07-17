@@ -222,21 +222,6 @@ The backend uses MySQL to manage:
 
 ---
 
-# 🎨 UI Features
-
-- Fully Responsive Design
-- Professional Navigation Bar
-- Hero Banner
-- Hotel Cards
-- Hotel Gallery
-- Booking Cards
-- Dashboard Cards
-- Modern Tables
-- Search Functionality
-- Clean CSS Design
-
----
-
 # 📦 Installation
 
 ## Clone Repository
@@ -311,24 +296,6 @@ GET /admin/dashboard
 - Booking Cancellation & Refund
 - Admin Analytics Dashboard
 - Mobile Application
-
----
-
-# 📸 Screenshots
-
-- Landing Page
-- Customer Dashboard
-- Hotel Listing
-- Hotel Details
-- Booking Page
-- Payment Page
-- My Bookings
-- Admin Dashboard
-- Manage Hotels
-- Manage Rooms
-- Reports
-
-(Add screenshots here after deployment.)
 
 ---
 
