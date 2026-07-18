@@ -20,7 +20,7 @@ The system allows customers to browse hotels, view room details, make bookings, 
 - CSS3
 - Axios
 - Vite
-
+- JavaScript
 ## Backend
 - Spring Boot
 - Spring MVC
